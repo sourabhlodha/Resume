@@ -1,0 +1,133 @@
+// button style here.
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818181;
+    line-height: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #818181;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 50px 0 10px;
+}
+.inner{
+    background-color: black;
+    width: 50%;
+    padding: 70px;
+}
+
+.about-con{
+width:100%;
+
+}
+.about-con ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title-divider
+  {
+    width: 70px;
+    height: 5px;
+    background-color: #7dba5c;
+    margin: 30px 0 50px 0;
+  }
+
+  .about-con ul li:first-child{
+      padding: 0 0 12px 0;
+  }
+
+  .about-con ul li {
+    border-bottom: 1px solid rgba(235, 235, 235, 0.2);
+    padding: 12px 0;
+}
+
+.inner p{
+    position: relative;
+    padding: 0;
+}
+
+.Resumebutton {
+    border: 2px solid #7dba5c;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #818181;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    background: transparent;
+}
+
+.about img.signature {
+    position: inherit;
+    top: auto;
+    margin: 20px 0 0 0;
+}
+.about img {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+img {
+    -webkit-backface-visibility: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.color{
+     color: #818181;
+}
+.menu{
+    position: fixed;
+    z-index: 100;
+    color: #f8f8f8;
+    background: #000;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+}
+.inner p{
+    position: relative;
+    padding: 0;
+}
+.margin-top50 {
+    margin-top: 50px;
+}
+.chart-text {
+    margin: 30px 0 0 0;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.percent {
+    display: inline-block;
+    z-index: 2;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #7dba5c;
+}
+.padding{
+    padding-top: 20px;
+}
